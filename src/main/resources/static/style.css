@@ -1,0 +1,71 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-image: url(https://cdn.hipwallpaper.com/i/35/29/j4t0DI.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+.menu-bar
+{
+    background: black;
+    text-align: center;
+}
+.menu-bar ul
+{
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+}
+.menu-bar ul li
+{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+.menu-bar ul li a
+{
+    text-decoration: none;
+    color: #fff;
+}
+
+.aactive, menu-bar ul li:hover
+{
+    background: grey;
+    border-radius: 3px;
+}
+
+.branchList {
+    text-align: center;
+    text-decoration: white;
+    color: white;
+    box-sizing: border-box;
+}
+
+.homePage
+{
+    text-align: center;
+    color: white;
+}
+
+.branches_page
+{
+    text-align: center;
+    display: inline-table;
+}
+
+.contact
+{
+    text-align: center;
+    color: white;
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+
